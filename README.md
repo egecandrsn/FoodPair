@@ -21,13 +21,3 @@ If you're ready to dive into the world of recipes, you can start by exploring th
 ## Data Format
 
 Each line in the dataset represents a recipe, with ingredients separated by commas. You can easily parse and work with this data in your preferred programming language.
-
-
-
-Your feedback and suggestions are important to me. If you have any questions, encounter issues, or want to share how you've used this dataset, please open an issue in this repository.
-
-Enjoy exploring the world of recipes with "Recipes Data"!
-
----
-
-This version simplifies the language and uses "I" to refer to the project owner.
