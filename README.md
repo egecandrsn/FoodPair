@@ -4,21 +4,33 @@ Welcome to the FoodPair project! This repository contains code and data for expl
 
 ## Table of Contents
 1. [Overview](#overview)
-2. [Data Loading and Exploration](#data-loading-and-exploration)
-3. [Co-occurrence Matrix](#co-occurrence-matrix)
-4. [Model Class](#model-class)
-5. [Training the Model](#training-the-model)
-6. [Ingredient Similarity](#ingredient-similarity)
-7. [Creative Ingredient Suggestions](#creative-ingredient-suggestions)
-8. [Recipe Generation](#recipe-generation)
-9. [NLP Analogies](#nlp-analogies)
-10. [Ingredient Clustering](#ingredient-clustering)
-11. [Ingredient Dissimilarity](#ingredient-dissimilarity)
-12. [Hyperparameter Evaluation](#hyperparameter-evaluation)
-13. [Data Visualization](#data-visualization)
+2. [Data_Cleaning](#data-cleaning)
+3. [Data Loading and Exploration](#data-loading-and-exploration)
+4. [Co-occurrence Matrix](#co-occurrence-matrix)
+5. [Model Class](#model-class)
+6. [Training the Model](#training-the-model)
+7. [Ingredient Similarity](#ingredient-similarity)
+8. [Creative Ingredient Suggestions](#creative-ingredient-suggestions)
+9. [Recipe Generation](#recipe-generation)
+10. [NLP Analogies](#nlp-analogies)
+11. [Ingredient Clustering](#ingredient-clustering)
+12. [Ingredient Dissimilarity](#ingredient-dissimilarity)
+13. [Hyperparameter Evaluation](#hyperparameter-evaluation)
+14. [Data Visualization](#data-visualization)
 
 ## Overview
 FoodPair is a project that explores food ingredient relationships and offers various functionalities related to culinary creativity and insights. It uses a co-occurrence matrix, word embeddings, and NLP operations to analyze and recommend food ingredients.
+
+## Data Cleaning
+The data preprocessing involved handling more than 2 million records, reducing the unique values from 178,775 to 376 unique words. The code used regular expressions to clean the text and ensure consistent ingredient representation.
+- [Notebook](https://github.com/egecandrsn/FoodPair/blob/main/recipes_data_cleaning.ipynb)
+### Gzipped Data Split
+
+The cleaned dataset was split into two Gzipped text files for easier storage and sharing. You can download these data files using the following links:
+- [Part 1](https://github.com/yourusername/repo/raw/main/part1.txt.gz)
+- [Part 2](https://github.com/yourusername/repo/raw/main/part2.txt.gz)
+
+This data preprocessing phase was a significant effort and essential for the subsequent analysis and exploration.
 
 ## Data Loading and Exploration
 - Data is loaded from two Gzipped text files.
